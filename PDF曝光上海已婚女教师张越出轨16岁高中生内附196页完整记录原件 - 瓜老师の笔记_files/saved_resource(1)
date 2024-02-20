@@ -1,0 +1,267 @@
+/* Style for the download button */
+.download-button {
+    background-color: #4CAF50; /* 绿色背景 */
+    color: white; /* 白色文字 */
+    padding: 10px 2px ; /* 内填充 */
+    border: none; /* 无边框 */
+    border-radius: 5px; /* 圆角边框 */
+    font-size: 16px; /* 字体大小 */
+    cursor: pointer; /* 鼠标悬停时的手形光标 */
+    transition: background-color 0.3s; /* 过渡效果 */
+}
+
+
+.download-button:hover {
+    background-color: #45a049; /* 鼠标悬停时的背景色 */
+}
+
+.download-button:active {
+    background-color: #3e8e41; /* 鼠标点击时的背景色 */
+    box-shadow: 0 6px #666; /* 点击时的阴影效果 */
+    transform: translateY(4px); /* 点击时的微小移动效果 */
+}
+
+/* 关掉广告 */
+.custom-image {
+  position: relative;
+  display: inline-block; /* 或根据您的布局需要调整 */
+}
+
+/*用于美化提示和按钮*/
+
+.member-exclusive-content-placeholder {
+    border: 2px dashed #ccc; /* 虚线边框 */
+    border-radius: 10px; /* 圆角 */
+    padding: 20px; /* 内边距 */
+    margin: 20px 0; /* 外边距，为提示框提供空间 */
+    text-align: center; /* 文本居中 */
+    background-color: #484848; /* 背景颜色 */
+    max-width: 600px; /* 最大宽度 */
+    margin-left: auto; /* 水平居中 */
+    margin-right: auto;
+    color: #0073aa; /* 蓝色字体 */
+}
+
+}
+
+.member-exclusive-content-placeholder .login-button {
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px; /* 圆角 */
+    margin-top: 15px; /* 顶部外边距 */
+    display: inline-block; /* 使padding生效 */
+    transition: background-color 0.3s;
+}
+
+.member-exclusive-content-placeholder .login-button:hover {
+    background-color: #005177;
+}
+
+/* 第二个下方间距 */
+.custom-image:nth-of-type(2) {
+    margin-bottom: 25px;
+}
+
+.close-ad {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #ff0; /* 根据需要调整颜色 */
+    background-color: rgba(0, 0, 0, 0.7); /* 黑色背景，50% 透明度 */
+    font-size: 16px; /* 根据需要调整大小 */
+    padding: 2px 5px;
+}
+
+
+/* 大瓜排行 */
+.ad-button-container {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.ad-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.ad-button:hover {
+    background-color: #0056b3;
+}
+
+.center-module {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#copyButton {
+  color: #fff;
+  border: none;
+  padding: 1px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
+  border-radius: 5px;
+  transition: 0.5s;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+	  display: block;
+  margin: 0 auto;
+}
+
+#copyButton:hover {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3px);
+}
+  
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.custom-header {
+    width: 100% !important;
+}
+
+.centered-containerDSGG {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center;     /* 垂直居中 */
+    height: 5vh;           /* 使容器占据整个视口的高度 */
+}
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-gradient-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff !important;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+    background-size: 200% 200%;       /* 背景大小，以使渐变可以在动画中移动 */
+    animation: gradientShift 6s infinite; /* 使用上面定义的动画，每6秒循环一次 */
+}
+
+.animated-gradient-button:hover {
+    transform: scale(1.05);
+}
+
+
+.centered-link {
+    text-align: left;
+    width: 100%;
+    font-size: 18px;
+    color: #00abba;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    padding-left: 20px; /* 确保左侧有足够空间放置竖线 */
+    position: relative; /* 相对定位，为伪元素定位提供参照 */
+}
+
+.centered-link::before {
+    content: ''; /* 不需要实际的内容 */
+    background-color: #00abba; /* 竖线的颜色 */
+    width: 5px; /* 竖线的宽度 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0; /* 这会使竖线的高度与容器相同 */
+}
+
+.centered-link:hover {
+    color: #f5a623;
+    text-decoration: none;
+}
+
+
+/* 用于首页四个方块按钮 */
+.custom-buttons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.custom-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55px; /* 正方形按钮的宽度 */
+  height: 55px; /* 正方形按钮的高度 */
+  border: 1px solid #1edde1; /* 红色线框 */
+  border-radius: 10px; /* 圆角大小 */
+  margin: 5px; /* 按钮间距 */
+  text-align: center;
+  color: #eec600; /* 文字颜色 */
+  font-weight: bold; /* 文字粗细 */
+  text-decoration: none; /* 去除下划线 */
+}
+
+.custom-button:hover {
+  background-color: black; /* 鼠标悬停时的背景颜色 */
+  color: white; /* 鼠标悬停时的文字颜色 */
+}
+
+
+/* 投稿 */
+
+.custom-link, .custom-link span {
+    margin: 0;
+    padding: 0;
+    line-height: 1; /* 调整行高可能有助于减少上下空间 */
+}
+
+.custom-link {
+    display: inline-block;
+    margin-left: 10px;
+    border: 1px solid;
+    padding: 3px 3px; /* 已经将上下内边距设为0 */
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* 隐藏开始吃瓜 */
+.entry-category a {
+  display: none;
+}
+
+.content-wrap {
+    min-height: 0px !important;
+}
